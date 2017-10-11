@@ -1,0 +1,131 @@
+/* header css start*/
+.outer-header-box {
+	background: #ccc;
+	display: inline-block;
+	padding: 10px 0;
+}
+header h1.logo a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 20px 0;
+}
+header .login-outer-box {
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+}
+header .login-outer-box .admin-img {
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+header .login-outer-box .dropdown {
+	display: inline-block;
+	float: right;
+	top: -2px;
+	left: 5px;
+}
+header .login-outer-box .dropdown .dropdown-menu {
+	float: right;
+	min-height: auto;
+	right: 0;
+	min-width: 135px;
+	left: initial;
+}
+header .login-outer-box .dropdown button {
+	border: 0px;
+	background: transparent;
+	height: 20px;
+}
+/* header css end*/
+
+/* subheader css start */
+.outer-subheader-box {
+	padding: 15px 0px;
+  background: white;
+  border: 2px #cccccc solid;
+}
+.subhead-pad{
+	padding: 10px 0px
+}
+.outer-subheader-box .remove-border .glyphicon {
+	font-size: 35px;
+	color: green;
+}
+.remove-border {
+	border: 0px;
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+.remove-border:hover, .remove-border:active, .remove-border:focus, .remove-border:visited, .remove-border:active:hover {
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+	outline: none;
+}
+
+/* subheader css end */
+
+/* main dashboard start */
+.dash-align {
+	margin: 2% 0%;
+  padding: 0px 10%;
+}
+.pad {
+	padding: 10px 0px 10px 45px;
+}
+.img-align {
+	vertical-align: middle;
+}
+button.project-icon {
+	  float: none;
+	  width: 15%;
+    height: 30px;
+    margin: 0px 5px;
+    border: 2px solid black;
+}
+/* main dashboard end */
+
+/*modal box start*/
+.modal-box{
+	/*height: 50%;*/
+}
+.modal-box img {
+	height: 50px;
+}
+
+.modal-box h2 {
+	font-size: 20px;
+}
+.project-input {
+	margin: 10px 0px;
+}
+.radiobtn h2{
+	margin: 10px 10px;
+}
+.radiobtn label {
+  margin: 2px 30px 2px 10px;
+}
+/*modal box end*/
+table, th, td {
+	border: 1px solid #ddd;
+}
+table tr.order1 td {
+	border-right: 0px solid transparent;
+}
+
+.dropdown-pad {
+	padding: 20px 10px;
+}
+/*.dropdown-pad .form-control {
+	width : 80%;
+	margin-right: 0px
+}*/
+
+.table input {
+  width: 65%;
+  padding: 5% 3%;
+}
